@@ -1,5 +1,28 @@
+body{
+    background-color: antiquewhite;
+}
 .form-control{
     margin: 1rem;
     box-sizing: border-box;
     padding-right: 2%;
+}
+.header{
+    font-style:italic ;
+    background-color: antiquewhite;
+    padding-left: 10px;
+}
+.header h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+.header h1{
+    color: blueviolet;
+    background-color: rgb(248, 217, 177);
+    border-radius: 11px;
+    
+}
+.form-group{
+   padding-right: 10%;
+}
+button{
+    margin-top: 5%;
 }

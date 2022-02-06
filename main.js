@@ -7,6 +7,12 @@ function saveBookmark(){
 var siteName=document.getElementById('siteName').value;
 var siteUrl=document.getElementById('siteUrl').value;
 
+if(!siteName||!siteUrl){
+alert("field cant be empty")
+return false;
+}
+
+
 //object
 let bookmark={
     name :siteName,
